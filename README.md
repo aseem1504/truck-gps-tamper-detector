@@ -4,7 +4,7 @@ Find trucks whose GPS trackers are being tampered with, using nothing but the pi
 
 Built in 2020 for a truck GPS fleet. All data in this repo is synthetic.
 
-Sister repo: [gps-device-health-scorecard](https://github.com/aseem1504/gps-device-health-scorecard) is the daily device health job (AWS Lambda) that runs on the same ping data.
+Sister repos: [gps-device-health-scorecard](https://github.com/aseem1504/gps-device-health-scorecard) is the daily device health job (AWS Lambda) that runs on the same ping data. [truck-blackout-movement-predictor](https://github.com/aseem1504/truck-blackout-movement-predictor) takes the Step 2 model below further: odds ratios, visit planning and cost-based cut-offs.
 
 ## The problem
 
